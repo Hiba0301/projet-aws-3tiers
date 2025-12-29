@@ -4,7 +4,7 @@ import "./App.css";
 
 // LOCAL : "http://localhost:3000/api"
 // AWS   : "http://<ALB-DNS-NAME>/api"
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL = "http://alb-todo-1987013829.us-east-1.elb.amazonaws.com/api";
 
 function App() {
   const [username, setUsername] = useState("");
